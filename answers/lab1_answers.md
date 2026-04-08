@@ -1,48 +1,46 @@
 # Lab 01 Answers
 ## CIA & Risk: Hệ thống lưu điểm
 
-**Họ và tên:** ........................................
+**Họ và tên:** Đinh Mạnh Tú
 
-**MSSV:** .............................................
+**MSSV:** 1871020614
 
-**Lớp/Nhóm:** .........................................
+**Lớp/Nhóm:** CNTT 18-01
 
 ---
 
 ## 1. Assets
 Liệt kê ít nhất 2 assets cần bảo vệ.
 
-- Asset 1:
-- Asset 2:
-- Asset 3 (nếu có):
+- Asset 1:Cơ sở dữ liệu khách hàng (thông tin cá nhân, số điện thoại, địa chỉ)
+- Asset 2:Tài khoản người dùng (username, password)
+- Asset 3 (nếu có):Hệ thống máy chủ và website của công ty
 
 ---
 
 ## 2. Mapping CIA
 Ghép từng sự cố với CIA.
 
-- Sự cố A ->
-- Sự cố B ->
-- Sự cố C ->
+- Sự cố A ->Confidentiality (Rò rỉ thông tin khách hàng)
+- Sự cố B ->Integrity (Dữ liệu bị sửa đổi trái phép)
+- Sự cố C ->Availability (Hệ thống bị sập, không truy cập được)
 
 ---
 
 ## 3. Phân tích sự cố B
-- Threat:
-- Vulnerability:
+- Threat:Hacker hoặc người dùng nội bộ chỉnh sửa dữ liệu trái phép
+- Vulnerability:Không kiểm tra quyền truy cập, thiếu cơ chế xác thực/ghi log
 - Mitigation:
-
----
+Áp dụng phân quyền (Role-based access control)
+Sử dụng xác thực mạnh (2FA)
+Ghi log và giám sát thay đổi dữ liệu
+Backup dữ liệu thường xuyên
 
 ## 4. Reflection
-Viết 5-7 dòng.
-
-
-
----
+Qua bài này, em hiểu rõ hơn về mô hình CIA gồm tính bảo mật, toàn vẹn và sẵn sàng của hệ thống thông tin. Việc xác định assets giúp nhận diện những gì cần bảo vệ trong hệ thống. Phân tích các sự cố giúp em thấy được mối liên hệ giữa threat và vulnerability. Đồng thời, em cũng nhận ra tầm quan trọng của các biện pháp phòng chống như phân quyền, xác thực và sao lưu dữ liệu. Đây là nền tảng quan trọng để xây dựng hệ thống an toàn.
 
 ## 5. Bonus Flag
 `FIT4012{A-?-B-?-C-?}`
 
-Flag của em:
+Flag của em:FIT4012{A-C-B-I-C-A}
 
