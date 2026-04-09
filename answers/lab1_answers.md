@@ -37,7 +37,7 @@ Ghi log và giám sát thay đổi dữ liệu
 Backup dữ liệu thường xuyên
 
 ## 4. Reflection
-Qua bài này, em hiểu rõ hơn về mô hình CIA gồm tính bảo mật, toàn vẹn và sẵn sàng của hệ thống thông tin. Việc xác định assets giúp nhận diện những gì cần bảo vệ trong hệ thống. Phân tích các sự cố giúp em thấy được mối liên hệ giữa threat và vulnerability. Đồng thời, em cũng nhận ra tầm quan trọng của các biện pháp phòng chống như phân quyền, xác thực và sao lưu dữ liệu. Đây là nền tảng quan trọng để xây dựng hệ thống an toàn.
+Qua bài học này, em đã hiểu rõ hơn về mô hình CIA - nền tảng của an toàn thông tin bao gồm tính bảo mật (Confidentiality), tính toàn vẹn (Integrity) và tính sẵn sàng (Availability). Việc xác định rõ các Assets giúp chúng ta biết chính xác cái gì quý giá nhất cần được ưu tiên bảo vệ. Đồng thời, qua việc phân tích sự cố B, em nhận thấy mối quan hệ mật thiết giữa các lỗ hổng (vulnerability) và các mối đe dọa (threat), từ đó đưa ra các biện pháp giảm thiểu (mitigation) phù hợp như phân quyền và ghi log.
 
 ## 5. Bonus Flag
 `FIT4012{A-?-B-?-C-?}`
