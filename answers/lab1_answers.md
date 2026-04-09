@@ -25,7 +25,6 @@
 - Mitigation: Áp dụng phân quyền RBAC, xác thực 2 lớp và thực hiện sao lưu dữ liệu thường xuyên.
 
 ## 4. Reflection
-Em nhận thấy việc học về mô hình CIA rất quan trọng vì nó là kim chỉ nam cho mọi hoạt động an toàn thông tin. Qua bài Lab 01, em đã hiểu rõ cách phân biệt giữa tính bảo mật, tính toàn vẹn và tính sẵn sàng. Việc thực hành xác định các Assets và đưa ra các biện pháp Mitigation giúp em có cái nhìn thực tế hơn về các lỗ hổng hệ thống. Đây là những kiến thức nền tảng vô cùng hữu ích cho công việc của em sau này.
-
+Trong bài lab này, em đã học được cách áp dụng mô hình CIA vào thực tế. Em hiểu rằng tính bảo mật giúp ngăn chặn rò rỉ dữ liệu, tính toàn vẹn đảm bảo dữ liệu không bị sửa đổi trái phép và tính sẵn sàng giúp hệ thống luôn hoạt động. Việc phân tích rủi ro giúp em biết cách bảo vệ các tài sản quan trọng của hệ thống một cách hiệu quả hơn thông qua các biện pháp như phân quyền và ghi log.
 ## 5. Bonus Flag
 Flag của em: FIT4012{A-C-B-I-C-A}
