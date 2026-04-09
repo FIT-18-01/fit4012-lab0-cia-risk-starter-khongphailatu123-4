@@ -14,14 +14,21 @@
 - Hoàn thiện bài làm trong repo và commit/push lên GitHub.
 
 ### 3. Kết quả chính
-**Assets:**
+
+#### Assets
 - Cơ sở dữ liệu điểm sinh viên (điểm số, thông tin cá nhân)
 - Tài khoản người dùng (giảng viên, sinh viên, admin)
 - Hệ thống máy chủ lưu trữ và website quản lý điểm
-**CIA mapping:**
+
+#### CIA mapping
 - Sự cố A -> Confidentiality (Lộ thông tin điểm hoặc dữ liệu sinh viên)
 - Sự cố B -> Integrity (Điểm số bị sửa đổi trái phép)
 - Sự cố C -> Availability (Hệ thống không truy cập được khi cần)
+
+#### Phân tích sự cố B
+- Threat: Hacker hoặc người dùng lợi dụng quyền truy cập để chỉnh sửa điểm
+- Vulnerability: Hệ thống phân quyền chưa chặt chẽ, thiếu kiểm tra xác thực và không có log theo dõi thay đổi
+- Mitigation: Áp dụng phân quyền rõ ràng (RBAC), sử dụng xác thực hai lớp (2FA), ghi log hệ thống và kiểm tra định kỳ, đồng thời sao lưu dữ liệu thường xuyên
 
 **Phân tích sự cố B:**
 - Threat: Hacker hoặc người dùng lợi dụng quyền truy cập để chỉnh sửa điểm
