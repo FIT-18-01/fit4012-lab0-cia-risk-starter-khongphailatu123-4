@@ -37,8 +37,7 @@ Ghi log và giám sát thay đổi dữ liệu
 Backup dữ liệu thường xuyên
 
 ## 4. Reflection
-Qua bài học này, em đã hiểu rõ hơn về mô hình CIA - nền tảng của an toàn thông tin bao gồm tính bảo mật (Confidentiality), tính toàn vẹn (Integrity) và tính sẵn sàng (Availability). Việc xác định rõ các Assets giúp chúng ta biết chính xác cái gì quý giá nhất cần được ưu tiên bảo vệ. Đồng thời, qua việc phân tích sự cố B, em nhận thấy mối quan hệ mật thiết giữa các lỗ hổng (vulnerability) và các mối đe dọa (threat), từ đó đưa ra các biện pháp giảm thiểu (mitigation) phù hợp như phân quyền và ghi log.
-
+Qua bài Lab 01 này, em đã nắm vững kiến thức về mô hình CIA và cách xác định các tài sản quan trọng (Assets) cần bảo vệ trong hệ thống thông tin. Em cũng hiểu rõ hơn về mối quan hệ giữa các lỗ hổng bảo mật và các mối đe dọa thực tế.
 ## 5. Bonus Flag
 `FIT4012{A-?-B-?-C-?}`
 
