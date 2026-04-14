@@ -26,7 +26,6 @@
 
 ## 4. Reflection
 Trong bài lab này, em đã học được cách áp dụng mô hình CIA vào thực tế. Em hiểu rằng tính bảo mật giúp ngăn chặn rò rỉ dữ liệu, tính toàn vẹn đảm bảo dữ liệu không bị sửa đổi trái phép và tính sẵn sàng giúp hệ thống luôn hoạt động. Việc phân tích rủi ro giúp em biết cách bảo vệ các tài sản quan trọng của hệ thống một cách hiệu quả hơn thông qua các biện pháp như phân quyền và ghi log.
-
 ---
 
 ## 5. Bonus Flag
