@@ -15,12 +15,12 @@
 
 ### 3. Kết quả chính
 
-#### Assets
+**Assets:**
 - Cơ sở dữ liệu điểm sinh viên (điểm số, thông tin cá nhân)
 - Tài khoản người dùng (giảng viên, sinh viên, admin)
 - Hệ thống máy chủ lưu trữ và website quản lý điểm
 
-#### CIA mapping
+**CIA mapping:**
 - Sự cố A -> Confidentiality (Lộ thông tin điểm hoặc dữ liệu sinh viên)
 - Sự cố B -> Integrity (Điểm số bị sửa đổi trái phép)
 - Sự cố C -> Availability (Hệ thống không truy cập được khi cần)
